@@ -1,0 +1,3 @@
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/version1/CMakeFiles/MyCMakeExecutable.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/version1/CMakeFiles/edit_cache.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/version1/CMakeFiles/rebuild_cache.dir
