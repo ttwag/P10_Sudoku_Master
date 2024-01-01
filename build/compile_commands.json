@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/build/Sudoku1",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/Sudoku1.dir/main.cpp.o -c /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/main.cpp",
+  "file": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/main.cpp",
+  "output": "Sudoku1/CMakeFiles/Sudoku1.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/build/Sudoku1",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/Sudoku1.dir/SudokuSolver.cpp.o -c /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/SudokuSolver.cpp",
+  "file": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/SudokuSolver.cpp",
+  "output": "Sudoku1/CMakeFiles/Sudoku1.dir/SudokuSolver.cpp.o"
+},
+{
+  "directory": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/build/Sudoku1",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/Sudoku1.dir/test.cpp.o -c /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/test.cpp",
+  "file": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/test.cpp",
+  "output": "Sudoku1/CMakeFiles/Sudoku1.dir/test.cpp.o"
+},
+{
+  "directory": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/build/Sudoku2",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/Sudoku2.dir/main.cpp.o -c /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/main.cpp",
+  "file": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/main.cpp",
+  "output": "Sudoku2/CMakeFiles/Sudoku2.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/build/Sudoku2",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -o CMakeFiles/Sudoku2.dir/SudokuSolver.cpp.o -c /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/SudokuSolver.cpp",
+  "file": "/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/SudokuSolver.cpp",
+  "output": "Sudoku2/CMakeFiles/Sudoku2.dir/SudokuSolver.cpp.o"
+}
+]

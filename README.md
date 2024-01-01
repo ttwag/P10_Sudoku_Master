@@ -11,6 +11,7 @@ A program that solves any sudoku puzzle and provides a user interface.
 * Expanded the version 1 solver to cover 9x9 sudoku and the square constraint.
 * Revised the C++ code.
 * Tested the program with various test cases.
+* Made assuming valid Sudoku input with char
 ### Version 3 - 9x9 Sudoku with User Interface
 * Use the SDL library to create GUI. 
 * When the user runs the program, a pop-up window will show a Sudoku board. User fill out the initial value and hit a button, 

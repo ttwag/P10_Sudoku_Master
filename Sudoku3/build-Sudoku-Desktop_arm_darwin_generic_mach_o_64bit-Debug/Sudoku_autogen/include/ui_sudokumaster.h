@@ -12,9 +12,11 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QFrame>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -125,6 +127,9 @@ public:
     QLineEdit *lineEdit_3_4;
     QLineEdit *lineEdit_3_8;
     QLineEdit *lineEdit_0_1;
+    QPushButton *clearButton;
+    QPushButton *solveButton;
+    QLabel *messageLabel;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -766,6 +771,19 @@ public:
         lineEdit_0_1->setFont(font4);
         lineEdit_0_1->setMaxLength(1);
         lineEdit_0_1->setAlignment(Qt::AlignCenter);
+        clearButton = new QPushButton(centralwidget);
+        clearButton->setObjectName("clearButton");
+        clearButton->setGeometry(QRect(770, 0, 100, 32));
+        solveButton = new QPushButton(centralwidget);
+        solveButton->setObjectName("solveButton");
+        solveButton->setGeometry(QRect(650, 0, 100, 32));
+        messageLabel = new QLabel(centralwidget);
+        messageLabel->setObjectName("messageLabel");
+        messageLabel->setGeometry(QRect(60, 10, 281, 16));
+        QFont font5;
+        font5.setPointSize(18);
+        messageLabel->setFont(font5);
+        messageLabel->setAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         SudokuMaster->setCentralWidget(centralwidget);
         lineEdit_0_0->raise();
         lineEdit_0_2->raise();
@@ -868,6 +886,9 @@ public:
         lineEdit_0_1->raise();
         line_3->raise();
         line->raise();
+        clearButton->raise();
+        solveButton->raise();
+        messageLabel->raise();
         menubar = new QMenuBar(SudokuMaster);
         menubar->setObjectName("menubar");
         menubar->setGeometry(QRect(0, 0, 930, 36));
@@ -885,6 +906,9 @@ public:
     void retranslateUi(QMainWindow *SudokuMaster)
     {
         SudokuMaster->setWindowTitle(QCoreApplication::translate("SudokuMaster", "SudokuMaster", nullptr));
+        clearButton->setText(QCoreApplication::translate("SudokuMaster", "Clear", nullptr));
+        solveButton->setText(QCoreApplication::translate("SudokuMaster", "Solve", nullptr));
+        messageLabel->setText(QCoreApplication::translate("SudokuMaster", "Please Enter the Numbers:", nullptr));
     } // retranslateUi
 
 };

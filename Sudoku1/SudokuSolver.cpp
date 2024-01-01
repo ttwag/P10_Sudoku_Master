@@ -32,9 +32,9 @@
 
 // Recursively Traverse Through the Decision Tree
 bool solver3(std::vector<std::vector<bool>>& mat_row, std::vector<std::vector<bool>>& mat_col,
-            std::vector<std::vector<char>>& board, int i, int j) {
+            std::vector<std::vector<int>>& board, int i, int j) {
     if (i >= 3) return true;
-    if (board[i][j] != '.') return solver3(mat_row, mat_col, board, j >= 2 ? i + 1 : i, j >= 2 ? 0 : j + 1);
+    if (board[i][j] != 0) return solver3(mat_row, mat_col, board, j >= 2 ? i + 1 : i, j >= 2 ? 0 : j + 1);
 
     // Recursively try all possible numbers
     for (int num = 1; num < 4; num++) {
@@ -43,18 +43,18 @@ bool solver3(std::vector<std::vector<bool>>& mat_row, std::vector<std::vector<bo
         if (mat_row[i][num - 1] == 1 || mat_col[num - 1][j] == 1) continue;
         
         // Update Constraint with current entry
-        mat_row[i][num - 1] = 1, mat_col[num - 1][j] = 1, board[i][j] = num + '0';
+        mat_row[i][num - 1] = 1, mat_col[num - 1][j] = 1, board[i][j] = num;
         if (solver3(mat_row, mat_col, board, j >= 2 ? i + 1 : i, j >= 2 ? 0 : j + 1)) return true;
         
         // Revert Constraints
-        mat_row[i][num - 1] = 0, mat_col[num - 1][j] = 0, board[i][j] = '.';
+        mat_row[i][num - 1] = 0, mat_col[num - 1][j] = 0, board[i][j] = 0;
     }
     return false;
 }
 
 // This is the function that is called first for solving the Sudoku
 // It initialize the constraints in the matrices based on given numbers
-void solveSudoku3(std::vector<std::vector<char>>& board) {
+bool solveSudoku3(std::vector<std::vector<int>>& board) {
     // Matrices that enforce the constraints
     std::vector<std::vector<bool>> mat_row(3, std::vector<bool>(3));
     std::vector<std::vector<bool>> mat_col(3, std::vector<bool>(3));
@@ -62,20 +62,18 @@ void solveSudoku3(std::vector<std::vector<char>>& board) {
     //Initialize the number
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
-            if (board[i][j] != '.') {
-                int num = board[i][j] - '0';
+            if (board[i][j] != 0) {
+                int num = board[i][j];
                 mat_row[i][num - 1] = 1;
                 mat_col[num - 1][j] = 1;
             }
         }
     }
-    if (solver3(mat_row, mat_col, board, 0, 0)) return;
-    std::cout<<"Sudoku Unsolvable"<<std::endl;
-    return;
+    return (solver3(mat_row, mat_col, board, 0, 0));
 }
 
 // Print the 3x3 Sudoku Board
-void print_board(std::vector<std::vector<char>>& board) {
+void print_board(std::vector<std::vector<int>>& board) {
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             std::cout<<board[i][j]<<' ';

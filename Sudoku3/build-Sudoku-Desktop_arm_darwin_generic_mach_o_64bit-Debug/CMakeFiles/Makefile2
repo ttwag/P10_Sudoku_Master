@@ -84,12 +84,12 @@ CMakeFiles/Sudoku.dir/all: CMakeFiles/Sudoku_autogen_timestamp_deps.dir/all
 CMakeFiles/Sudoku.dir/all: CMakeFiles/Sudoku_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Sudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Sudoku"
 .PHONY : CMakeFiles/Sudoku.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sudoku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Sudoku.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/Sudoku.dir/rule
@@ -136,7 +136,7 @@ CMakeFiles/Sudoku_autogen_timestamp_deps.dir/clean:
 CMakeFiles/Sudoku_autogen.dir/all: CMakeFiles/Sudoku_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku_autogen.dir/build.make CMakeFiles/Sudoku_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku_autogen.dir/build.make CMakeFiles/Sudoku_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=6 "Built target Sudoku_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles --progress-num=7 "Built target Sudoku_autogen"
 .PHONY : CMakeFiles/Sudoku_autogen.dir/all
 
 # Build rule for subdir invocation for target.

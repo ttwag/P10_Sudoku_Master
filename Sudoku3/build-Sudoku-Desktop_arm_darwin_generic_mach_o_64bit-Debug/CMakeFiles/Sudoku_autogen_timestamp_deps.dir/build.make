@@ -66,9 +66,9 @@ include CMakeFiles/Sudoku_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/Sudoku_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/Sudoku_autogen_timestamp_deps: /Users/taowang/Qt6.6.1/6.6.1/macos/lib/QtCore.framework/Versions/A/QtCore
-CMakeFiles/Sudoku_autogen_timestamp_deps: /Users/taowang/Qt6.6.1/6.6.1/macos/./libexec/moc
 CMakeFiles/Sudoku_autogen_timestamp_deps: /Users/taowang/Qt6.6.1/6.6.1/macos/./libexec/uic
+CMakeFiles/Sudoku_autogen_timestamp_deps: /Users/taowang/Qt6.6.1/6.6.1/macos/./libexec/moc
+CMakeFiles/Sudoku_autogen_timestamp_deps: /Users/taowang/Qt6.6.1/6.6.1/macos/lib/QtCore.framework/Versions/A/QtCore
 CMakeFiles/Sudoku_autogen_timestamp_deps: /Users/taowang/Qt6.6.1/6.6.1/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 Sudoku_autogen_timestamp_deps: CMakeFiles/Sudoku_autogen_timestamp_deps

@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Sudoku2.dir/main.cpp.o CMakeFiles/Sudoku2.dir/SudokuSolver.cpp.o -o Sudoku2 

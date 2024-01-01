@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sudoku_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/Sudoku_autogen.dir/ParseCache.txt"
   "Sudoku_autogen"
+  "CMakeFiles/Sudoku.dir/SudokuSolver.cpp.o"
+  "CMakeFiles/Sudoku.dir/SudokuSolver.cpp.o.d"
   "CMakeFiles/Sudoku.dir/Sudoku_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Sudoku.dir/Sudoku_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Sudoku.dir/main.cpp.o"

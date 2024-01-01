@@ -17,6 +17,12 @@ public:
     SudokuMaster(QWidget *parent = nullptr);
     ~SudokuMaster();
 
+private slots:
+
+    void on_clearButton_clicked();
+    void on_solveButton_clicked();
+
+
 private:
     Ui::SudokuMaster *ui;
 };

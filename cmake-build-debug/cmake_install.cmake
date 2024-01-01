@@ -41,7 +41,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/taowang/Desktop/Project/P10_Sudoku_Master/cmake-build-debug/Sudoku1/cmake_install.cmake")
   include("/Users/taowang/Desktop/Project/P10_Sudoku_Master/cmake-build-debug/Sudoku2/cmake_install.cmake")
-  include("/Users/taowang/Desktop/Project/P10_Sudoku_Master/cmake-build-debug/Sudoku3/cmake_install.cmake")
 
 endif()
 

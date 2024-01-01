@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59a01e16-4a6a-4a47-b5d5-c51188496d31" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SudokuSolver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SudokuSolver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuSolver .cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuSolver .h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokumaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/sudokumaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokumaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/sudokumaster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokumaster.ui" beforeDir="false" afterPath="$PROJECT_DIR$/sudokumaster.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply/cmakeFiles-v1-14c75b3b3ec700f4c013.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply/codemodel-v2-95e18e133f1dc87a5e13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply/directory-.-Debug-5115fa4b6871c2eee07b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply/index-2023-12-31T18-47-58-0484.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/.cmake/api/v1/reply/target-Sudoku-Debug-eccc1cc4a4b867b2948f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/Sudoku_autogen/mocs_compilation.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/Sudoku_autogen/mocs_compilation.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/sudokumaster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/sudokumaster.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/sudokumaster.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir/sudokumaster.cpp.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/AutogenInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/AutogenInfo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/ParseCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/ParseCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen_timestamp_deps.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen_timestamp_deps.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku.app/Contents/MacOS/Sudoku" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku.app/Contents/MacOS/Sudoku" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku_autogen/EWIEGA46WW/moc_sudokumaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku_autogen/EWIEGA46WW/moc_sudokumaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku_autogen/deps" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku_autogen/deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku_autogen/include/ui_sudokumaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Sudoku_autogen/include/ui_sudokumaster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/qtcsettings.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/qtcsettings.cmake" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2aK1yGujt4HSyyjO2Vmn2pm4TEv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59a01e16-4a6a-4a47-b5d5-c51188496d31" name="Changes" comment="" />
+      <created>1704052709404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704052709404</updated>
+      <workItem from="1704052710700" duration="3000" />
+      <workItem from="1704054147817" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

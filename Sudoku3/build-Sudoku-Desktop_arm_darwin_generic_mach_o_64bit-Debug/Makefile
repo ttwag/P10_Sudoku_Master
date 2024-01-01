@@ -200,6 +200,30 @@ Sudoku_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku_autogen.dir/build.make CMakeFiles/Sudoku_autogen.dir/build
 .PHONY : Sudoku_autogen/fast
 
+SudokuSolver.o: SudokuSolver.cpp.o
+.PHONY : SudokuSolver.o
+
+# target to build an object file
+SudokuSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/SudokuSolver.cpp.o
+.PHONY : SudokuSolver.cpp.o
+
+SudokuSolver.i: SudokuSolver.cpp.i
+.PHONY : SudokuSolver.i
+
+# target to preprocess a source file
+SudokuSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/SudokuSolver.cpp.i
+.PHONY : SudokuSolver.cpp.i
+
+SudokuSolver.s: SudokuSolver.cpp.s
+.PHONY : SudokuSolver.s
+
+# target to generate assembly for a file
+SudokuSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sudoku.dir/build.make CMakeFiles/Sudoku.dir/SudokuSolver.cpp.s
+.PHONY : SudokuSolver.cpp.s
+
 Sudoku_autogen/mocs_compilation.o: Sudoku_autogen/mocs_compilation.cpp.o
 .PHONY : Sudoku_autogen/mocs_compilation.o
 
@@ -287,6 +311,9 @@ help:
 	@echo "... Sudoku_autogen"
 	@echo "... Sudoku_autogen_timestamp_deps"
 	@echo "... Sudoku"
+	@echo "... SudokuSolver.o"
+	@echo "... SudokuSolver.i"
+	@echo "... SudokuSolver.s"
 	@echo "... Sudoku_autogen/mocs_compilation.o"
 	@echo "... Sudoku_autogen/mocs_compilation.i"
 	@echo "... Sudoku_autogen/mocs_compilation.s"
