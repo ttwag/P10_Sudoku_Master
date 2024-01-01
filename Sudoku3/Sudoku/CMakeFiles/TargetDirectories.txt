@@ -1,9 +1,0 @@
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/Sudoku.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/edit_cache.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/rebuild_cache.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/list_install_components.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/install.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/install/local.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/install/strip.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/Sudoku_autogen_timestamp_deps.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/Sudoku/CMakeFiles/Sudoku_autogen.dir
