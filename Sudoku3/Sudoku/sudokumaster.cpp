@@ -25,6 +25,8 @@ void SudokuMaster::on_clearButton_clicked()
             cell->clear();
         }
     }
+    // Display the message to prompt user to enter numbers again
+    ui->messageLabel->setText("Please Enter the Numbers:");
 }
 
 

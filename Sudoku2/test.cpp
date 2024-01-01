@@ -30,7 +30,7 @@ void print_message(int n, bool result) {
 }
 
 /*
- * test() contains 5 test cases. It calls validate_board to validate the board then print the result with print_message
+ * test() contains 10 test cases. It calls validate_board to validate the board then print the result with print_message
  * The function assumed valid sudoku input.
  * Test cases come from: https://mathsphere.co.uk/downloads/sudoku/10203-hard.pdf
  */
