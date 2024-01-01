@@ -1,9 +1,0 @@
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/edit_cache.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/list_install_components.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/local.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/install/strip.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen_timestamp_deps.dir
-/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku3/build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug/CMakeFiles/Sudoku_autogen.dir
