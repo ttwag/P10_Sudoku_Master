@@ -6,3 +6,4 @@ cmake-build-debug
 .DS_Store
 build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug
 .vscode
+build
