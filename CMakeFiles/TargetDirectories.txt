@@ -1,0 +1,8 @@
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/CMakeFiles/edit_cache.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/CMakeFiles/rebuild_cache.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/CMakeFiles/Sudoku1.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/CMakeFiles/edit_cache.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku1/CMakeFiles/rebuild_cache.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/CMakeFiles/Sudoku2.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/CMakeFiles/edit_cache.dir
+/Users/taowang/Desktop/Project/P10_Sudoku_Master/Sudoku2/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "SudokuSolver.h"
 #include "test.h"
 
