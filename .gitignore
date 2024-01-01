@@ -7,3 +7,6 @@ cmake-build-debug
 build-Sudoku-Desktop_arm_darwin_generic_mach_o_64bit-Debug
 .vscode
 build
+cmake_install.cmake
+Makefile
+CMakeFiles

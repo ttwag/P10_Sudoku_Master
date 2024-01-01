@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #ifndef SUDOKU_SOLVER_test
 #define SUDOKU_SOLVER_test
 

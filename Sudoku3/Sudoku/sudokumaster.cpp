@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "sudokumaster.h"
 #include "./ui_sudokumaster.h"
 #include "SudokuSolver.h"
