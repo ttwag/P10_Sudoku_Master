@@ -11,3 +11,6 @@ cmake_install.cmake
 Makefile
 CMakeFiles
 CMakeCache.txt
+CMakeLists.txt.user
+Sudoku_autogen
+.qt
