@@ -2,7 +2,14 @@
 #include <vector>
 #include "SudokuSolver.h"
 
-
+/*
+ * Helper function
+ * Recursively solves the 9x9 sudoku board.
+ * Implements the exact same logic as that of the 3x3 sudoku solver in Sudoku1 but added the quadrant constraint matrix.
+ *
+ * The quadrant matrix thinks of the 9 quadrants as 9 rows and performs the same checks as that of mat_row and mat_col.
+ * The k = 3 * (i / 3) + j / 3 is the row index for the quadrant matrix. It transforms i and j of the cells from the 9 quadrants into 9 rows.
+ */
 bool solver9(std::vector<std::vector<bool>>& mat_row, std::vector<std::vector<bool>>& mat_col,
             std::vector<std::vector<bool>>& mat_square, std::vector<std::vector<int>>& board, int i, int j) {
     if (i >= 9) return true;
@@ -19,12 +26,17 @@ bool solver9(std::vector<std::vector<bool>>& mat_row, std::vector<std::vector<bo
     }
     return false;
 }
+
+/*
+ * This function solves the 9x9 sudoku puzzle by taking care of user inputs then calling solver9 to fill in the board.
+ * Note that this sudoku solver assumes a valid input board. EX: there won't be two identical numbers in a row.
+ */
 bool solveSudoku9(std::vector<std::vector<int>>& board) {
     std::vector<std::vector<bool>> mat_row(9, std::vector<bool>(9));
     std::vector<std::vector<bool>> mat_col(9, std::vector<bool>(9));
     std::vector<std::vector<bool>> mat_square(9, std::vector<bool>(9));
 
-    //Initialize the number
+    //Initializes the number
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             if (board[i][j] == 0) continue;
@@ -42,7 +54,7 @@ bool solveSudoku9(std::vector<std::vector<int>>& board) {
     return solver9(mat_row, mat_col, mat_square, board, 0, 0);
 }
 
-// Print the 9x9 Sudoku Board
+// Prints the 9x9 Sudoku Board
 void print_board(std::vector<std::vector<int>>& board) {
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {

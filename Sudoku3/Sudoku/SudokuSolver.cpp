@@ -2,6 +2,9 @@
 #include <vector>
 #include "SudokuSolver.h"
 
+/*
+ * This SudokuSolver.cpp file is the same as the one in Sudoku2.
+ */
 
 bool solver9(std::vector<std::vector<bool>>& mat_row, std::vector<std::vector<bool>>& mat_col,
             std::vector<std::vector<bool>>& mat_square, std::vector<std::vector<int>>& board, int i, int j) {
@@ -24,7 +27,7 @@ bool solveSudoku9(std::vector<std::vector<int>>& board) {
     std::vector<std::vector<bool>> mat_col(9, std::vector<bool>(9));
     std::vector<std::vector<bool>> mat_square(9, std::vector<bool>(9));
 
-    //Initialize the number
+    //Initializes the number
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             if (board[i][j] == 0) continue;
@@ -42,7 +45,7 @@ bool solveSudoku9(std::vector<std::vector<int>>& board) {
     return solver9(mat_row, mat_col, mat_square, board, 0, 0);
 }
 
-// Print the 9x9 Sudoku Board
+// Prints the 9x9 Sudoku Board
 void print_board(std::vector<std::vector<int>>& board) {
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
