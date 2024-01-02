@@ -15,8 +15,26 @@ You solved a sudoku puzzle if and only if:
 4. Each 3x3 quadrant has number 1-9 with no repeat.
 
 ## Installation
+ 
+### Linux
+Clone and go to the P10_Sudoku_Master directory, then enter the following commands:
 
+```
+$ cd Sudoku3/Sudoku
+$ cmake .
+$ make
+$ ./Sudoku
+```
 
+Note: the commands assumed you have qt libraries, c++ compiler, and CMake installed.
+
+If you haven't installed the qt library, please enter:
+
+```
+# Install the qt library
+
+$ sudo apt install qt6-base-dev
+```
 
 ## How to Use This Program
 
