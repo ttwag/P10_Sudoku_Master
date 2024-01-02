@@ -1,5 +1,7 @@
 # P10_Sudoku_Master
-A program that solves any sudoku puzzle and provides a user interface.
+A program that solves any sudoku puzzle and provides an intuitive user experience.
+
+https://github.com/ttwag/P10_Sudoku_Master/assets/113254272/8f4533a9-1f42-496b-8e0a-a60d453bad1c
 
 ## Installation
 
