@@ -143,6 +143,6 @@ The GUI was developed in Qt Creator 12.0.0 based on Qt6.6.0 (Clang 13.0 (Apple),
 ## Helpful Links
 There are some web sudoku problems that you could play with this solver: https://www.websudoku.com
 
-The test cases for 9x9 sudoku came from: Test cases come from: https://mathsphere.co.uk/downloads/sudoku/10203-hard.pdf
+The test cases for 9x9 sudoku came from: https://mathsphere.co.uk/downloads/sudoku/10203-hard.pdf
 
 If you are excited and want to build a solver yourself, you could try out LeetCode [Problem 37](https://leetcode.com/problems/sudoku-solver/) and its related problems.
